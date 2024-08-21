@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+}
+label {
+  color: #A51C30;
+  font-family: "Georgia"
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+/*navbar Options*/
+.navbar-default {
+    background-color: #F5F6F4;
+    padding: 15px;
+    margin: 0px -15px 0px -15px
+}
+.navbar-default .navbar-brand {
+    color: black;
+    font-family: "Georgia";
+}
+.navbar-default .navbar-brand:hover {
+    color: black;
+    font-family: "Georgia";
+}
+/*actionButton Options*/
+.btn-default {
+  background-color: #A51C30;
+  color: white;
+  font-family: "Georgia";
+  margin: 25px 0px 0px
+}
+.btn-default:hover {
+  background-color: #F5F6F4;
+  color: black;
+}
+.btn-default:focus {
+  background-color: #A51C30;
+  color: white;
+}
+/*selectInput Options*/
+.selectize-dropdown .selected {
+    background-color: #F5F6F4;
+    color: black
+}
+.selectize-dropdown .active:not(.selected) {
+    background: #A51C30;
+    color: white
+}
+.selectize-dropdown-content .active{
+    background: #A51C30;
+    color: white
+}
+.selectize-control.multi .selectize-input>div {
+  background: #F5F6F4;
+  color: black;
+}
+/* inputSlider Options*/
+.irs--shiny .irs-bar{
+  background: #A51C30;
+  border: 1px solid #A51C30;
+}
+.irs--shiny .irs-single {
+  background-color: transparent;
+  color: black;
+}
+.irs--shiny .irs-min {
+  background-color: transparent;
+}
+.irs--shiny .irs-max {
+  background-color: transparent;
+}
+.irs--shiny .irs-handle {
+  border-radius: 6px;
+}
+/* textInput and textAreaInput Options */
+/*.form-control::placeholder {*/
+/*  color: #F5F6F4;*/
+/*}*/ 
+/*radioButtonInput Options*/
+/* This alters the labels for the radio buttons*/
+.radio label{
+  color: black;
+  font-family: Helvetica;
+}
+/*This alters the color of the radio button*/
+input[type="radio"] {
+  accent-color: #A51C30
+}
+/*When you hover over the radio button, the color will change slightly, this adjusts that change*/
+input[type="radio"]:hover {
+  filter: brightness(1.5)
+}
+/* checkboxInput and checkboxGroupInput Options */
+/* This alters the labels for the checkboxes*/
+.checkbox label{
+  color: black;
+  font-family: Helvetica;
+}
+/*This alters the color of the checkboxes*/
+input[type="checkbox"] {
+  accent-color: #A51C30
+}
+/*When you hover over the checkbox, the color will change slightly, this adjusts that change*/
+input[type="checkbox"]:hover {
+  filter: brightness(1.5)
+}
+/*When you click on the checkbox, the color will quickly change slightly, this adjusts that change*/
+input[type="checkbox"]:active {
+  filter: brightness(0.8)
+}
