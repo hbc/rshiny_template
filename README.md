@@ -6,12 +6,8 @@ This template was designed to help HBC team members use consistent styling acros
 
 The `app.R` file has a skeleton of a R Shiny app in it with everything need to visualize the header logo and CSS styling file. 
 
-What you will need to do to use this template:
+Download or fork the repository and then clone to your local computer to start modifying `app.R`
 
-**1)** Download `app.R` and start an R Project in R Studio.
-
-**2)** Create a `www` directory in your working directory.
-
-**3)** Download `HBC_logo.png` and `style.css` and place them in your `www` directory.
+`app.R` comes with a toy example of two tabs: one showing a table and another showing a plot.
 
 You are now all set to start creating your app within `app.R` now!
